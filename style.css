@@ -25,7 +25,7 @@ header{
     height: 50px;
     top: 0;
     width: 100%;
-    background-color: yellow;
+    background-color: rgb(233, 233, 218);
     box-shadow: 2px 2px 2px 1px rgba(247, 6, 6, 0.2);
 }
 
@@ -91,8 +91,9 @@ footer p{
 
 
 body{
-    background-color: rgb(235, 231, 17);
+    background-color: rgb(255, 255, 4);
     font-family: sans-serif;
+    
 }
 
 section.mangasConteiner1 article{
@@ -103,7 +104,7 @@ section.mangasConteiner1 article{
 
 section.mangasConteiner2{
     display: flex;
-    justify-content: r;
+    justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -115,6 +116,10 @@ section.mangasConteiner2{
     background-color: rgb(250, 244, 244);
     width: 500px;
     display: flex;
+}
+
+.mangasConteiner2 article img{
+    width: 40%;
 }
 
 .mangasConteiner1,.mangasConteiner2 article{
@@ -129,9 +134,7 @@ section.mangasConteiner2{
     background-color: #0000007e;
 }
 
-img{
-    width: 100%;
-}
+
 
 article div{
     padding: 14px 14px 10px;
